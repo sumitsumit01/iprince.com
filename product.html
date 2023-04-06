@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Name - My Online Store</title>
+    <link rel="stylesheet" href="./styles/product.css">
+  </head>
+  <body>
+    <header>
+      <h1>iPrince's Products
+        <img src="./imges/logo.jpeg" alt="My Company Logo" width="30" height="30" align="right">
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      
+    </header>
+    <main>
+      <div class="product">
+        <img src="./imges/iblack.png" alt="Product Image 1">
+        <img src="./imges/ipurple.png" alt="Product Image 2">
+        <img src="./imges/igolden.png" alt="Product Image 3">
+        <div class="details">
+          <h2>Product Name</h2>
+          <p>iPhone models currently sold on banana01.com work with compatible networks around the world, including 5G and 4G LTE networks. Check with your home network provider regarding international roaming charges, or purchase a compatible nano-SIM at your destination.</p>
+          <h3>Price: $1399.99</h3>
+          <form>
+            <label for="product">Choose the product you want to buy:</label>
+            <select id="fruit" name="fruit">
+              <option value="golden">Golden</option>
+              <option value="purple">Purple</option>
+              <option value="Space black">Space Black</option>
+            </select>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+            <button type="submit">Add to Cart</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 iPrince Stores </p>
+        <a href="contact.html">Contact Us</a>
+    </footer>
+  </body>
+</html>
